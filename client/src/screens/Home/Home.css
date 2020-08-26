@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   padding-bottom:40px ;
+  margin-top: 20px;
 }
 
 .contact{
@@ -13,7 +14,7 @@
 .contact-city{
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .contact-info{
@@ -33,7 +34,6 @@
   width: 15%;
   margin-top:40px ;
   margin-bottom: 80px;
-
 }
 
 .contain{
@@ -54,6 +54,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
   border:1px solid white;
 }
