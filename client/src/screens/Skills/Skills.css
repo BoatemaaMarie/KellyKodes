@@ -6,9 +6,6 @@
 }
 
 .skills-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   width: 50%;
 }
@@ -16,4 +13,30 @@
 .skills-div{
   display: flex;
   justify-content: center;
+}
+
+.skill-icon-container{
+  margin: 30px;
+  flex-direction: column;
+}
+
+.skillset-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.skillset{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.skillset-div{
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 20px;
 }
