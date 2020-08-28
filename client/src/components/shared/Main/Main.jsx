@@ -5,7 +5,7 @@ import AboutMe from '../../../screens/AboutMe/AboutMe'
 import Skills from '../../../screens/Skills/Skills'
 import MyProjects from '../../../screens/MyProjects/MyProjects'
 import Resume from '../../../screens/Resume/Resume'
-import Footer from '../../shared/Footer/Footer'
+// import Footer from '../../shared/Footer/Footer'
 
 
 
@@ -17,7 +17,7 @@ export default function Main() {
       <Skills />
       <MyProjects />
       <Resume />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
