@@ -28,14 +28,14 @@
 }
 
 .skillset{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   padding: 20px;
   margin: 20px;
 }
 
 .skillset-div{
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 50%;
   margin: 20px;
 }

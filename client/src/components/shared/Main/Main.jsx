@@ -1,23 +1,25 @@
-import React from 'react'
-// import {Route} from 'react-router-dom'
+import React, {useState, useEffect} from 'react'
+import {Route, Switch} from 'react-router-dom'
 import Home from '../../../screens/Home/Home'
 import AboutMe from '../../../screens/AboutMe/AboutMe'
 import Skills from '../../../screens/Skills/Skills'
 import MyProjects from '../../../screens/MyProjects/MyProjects'
 import Resume from '../../../screens/Resume/Resume'
-import Footer from '../../shared/Footer/Footer'
+// import Footer from '../../shared/Footer/Footer'
 
 
 
 export default function Main() {
+
+
   return (
     <>
-      <Home />
+      <Home /> 
       <AboutMe />
       <Skills />
       <MyProjects />
-      <Resume />
-      <Footer />
+      <Resume /> 
+      {/* <Footer /> */}
     </>
   )
 }
