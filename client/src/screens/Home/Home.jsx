@@ -2,14 +2,14 @@ import React from 'react'
 import './Home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import Resume from '../Resume/Resume'
 
 
-export default function Home(props) {
+export default function Home() {
   function handleClick(e) {
     e.preventDefault()
     console.log('go home roger')
-    // props.aboutme
-  
   }
 
   return (
@@ -30,7 +30,9 @@ export default function Home(props) {
             <Button onClick={handleClick} className="links" variant="outline-light" block>ABOUT ME</Button>
             <Button className="links" variant="outline-light" block>SKILLS</Button>
             <Button className="links" variant="outline-light" block>PROJECTS</Button>
-            <Button className="links" variant="outline-light" block>RESUME</Button>
+            <Button className="links" variant="outline-light" block>  RESUME  </Button>
+            <a target="/resume" href="#resume">  <Button className="links" variant="outline-light" block>  RESUME  </Button> </a>
+
           </div>
 
         </div>

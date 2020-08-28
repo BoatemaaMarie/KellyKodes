@@ -1,5 +1,5 @@
-import React from 'react'
-// import {Route} from 'react-router-dom'
+import React, {useState, useEffect} from 'react'
+import {Route, Switch} from 'react-router-dom'
 import Home from '../../../screens/Home/Home'
 import AboutMe from '../../../screens/AboutMe/AboutMe'
 import Skills from '../../../screens/Skills/Skills'
@@ -10,13 +10,15 @@ import Resume from '../../../screens/Resume/Resume'
 
 
 export default function Main() {
+
+
   return (
     <>
-      <Home />
+      <Home /> 
       <AboutMe />
       <Skills />
       <MyProjects />
-      <Resume />
+      <Resume /> 
       {/* <Footer /> */}
     </>
   )
