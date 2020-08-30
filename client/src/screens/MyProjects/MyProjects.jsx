@@ -10,9 +10,10 @@ export default function MyProjects() {
 
 
       <div className="all-projects">
+       
         <div className="project-container">
+          
           <div className="project-image">
-
             <img className="all-images" src="http://res.cloudinary.com/dc6ncx5wp/image/upload/c_scale,w_933/v1598466992/Subbusterscreenshot_yqsjow.png" />
             <img className="all-images" src="http://res.cloudinary.com/dc6ncx5wp/image/upload/c_scale,w_885/v1598468222/Screen_Shot_2020-08-26_at_2.55.57_PM_in5wiv.png" />
 

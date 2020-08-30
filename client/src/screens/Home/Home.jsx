@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import {FaArrowCircleUp} from 'react-icons/fa';
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Resume from '../Resume/Resume'
@@ -28,10 +29,12 @@ export default function Home() {
 
           <div className="button-container">
             <Button onClick={handleClick} className="links" variant="outline-light" block>ABOUT ME</Button>
+            <button className="links"> <a href="/aboutme" >  ABOUT ME</a> </button>
             <Button className="links" variant="outline-light" block>SKILLS</Button>
             <Button className="links" variant="outline-light" block>PROJECTS</Button>
-            <Button className="links" variant="outline-light" block>  RESUME  </Button>
-            <a target="/resume" href="#resume">  <Button className="links" variant="outline-light" block>  RESUME  </Button> </a>
+            <button className="links"> <a href="/projects" >PROJECTS</a> </button>
+            <Button className="links" variant="outline-light" block>  <a target="_blank" href="www.google.com"> resume</a> </Button>
+            <a href="#resume">  <Button className="links" variant="outline-light" block>  RESUME  </Button> </a>
 
           </div>
 
