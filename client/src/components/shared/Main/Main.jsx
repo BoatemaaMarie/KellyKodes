@@ -14,7 +14,10 @@ export default function Main() {
 
   return (
     <>
-      <Home /> 
+      <Route>
+
+      <Home component="/aboutme" exact/> 
+      </Route>
       <AboutMe />
       <Skills />
       <MyProjects />
