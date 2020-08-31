@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import {FaArrowCircleUp} from 'react-icons/fa';
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Resume from '../Resume/Resume'
+import AboutMe from '../AboutMe/AboutMe'
 
 
 export default function Home() {
@@ -26,16 +26,12 @@ export default function Home() {
         </div>
 
         <div className="contain">
-
+          {/* <a href="#aboutme">ABOUT ME</a> */}
           <div className="button-container">
-            <Button onClick={handleClick} className="links" variant="outline-light" block>ABOUT ME</Button>
-            <button className="links"> <a href="/aboutme" >  ABOUT ME</a> </button>
-            <Button className="links" variant="outline-light" block>SKILLS</Button>
-            <Button className="links" variant="outline-light" block>PROJECTS</Button>
-            <button className="links"> <a href="/projects" >PROJECTS</a> </button>
-            <Button className="links" variant="outline-light" block>  <a target="_blank" href="www.google.com"> resume</a> </Button>
-            <a href="#resume">  <Button className="links" variant="outline-light" block>  RESUME  </Button> </a>
-
+            <a href="#about-me" >  <Button className="links" variant="outline-light" block>ABOUT ME</Button></a>
+            <a href="#skills" >   <Button className="links" variant="outline-light" block>SKILLS</Button> </a>
+            <a href="#projects" > <Button className="links" variant="outline-light" block>PROJECTS</Button></a>
+            <a href="#resume" >    <Button className="links" variant="outline-light" block>  RESUME  </Button></a>
           </div>
 
         </div>

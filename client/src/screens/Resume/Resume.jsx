@@ -9,7 +9,7 @@ export default function Resume() {
 
         <div className="resume">
 
-          <h4 className="resume-name">RESUME</h4>
+          <h4 className="resume-name" id="resume">RESUME</h4>
 
           {/* <div className="line"></div> */}
           <br></br>
@@ -18,7 +18,7 @@ export default function Resume() {
           
           <div className="resume-buttons">
       
-            <Button className="resume-buttons" variant="outline-light" block>VIEW</Button>
+            <a target="_blank" href="https://drive.google.com/file/d/18bDiTKa5LvUwyu_ILaXt6gonQKZZyH0h/view?usp=sharing"> < Button className="resume-buttons" variant="outline-light" block>VIEW</Button> </a>
           </div>
         </div>
       </div>
