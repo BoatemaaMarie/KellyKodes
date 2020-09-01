@@ -2,22 +2,15 @@ import React, { useState } from 'react'
 import './Home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import Resume from '../Resume/Resume'
-import AboutMe from '../AboutMe/AboutMe'
 
 
 export default function Home() {
-  function handleClick(e) {
-    e.preventDefault()
-    console.log('go home roger')
-  }
+
 
   return (
     <>
       <div className="home-body">
         <div className="contact-info">
-          <div className="line"></div>
           <br></br>
           <h1 className="contact-name">KELLY APPIAH </h1>
           <p className="contact">Full-Stack Software Engineer</p>
@@ -26,12 +19,32 @@ export default function Home() {
         </div>
 
         <div className="contain">
-          {/* <a href="#aboutme">ABOUT ME</a> */}
+
           <div className="button-container">
-            <a href="#about-me" >  <Button className="links" variant="outline-light" block>ABOUT ME</Button></a>
-            <a href="#skills" >   <Button className="links" variant="outline-light" block>SKILLS</Button> </a>
-            <a href="#projects" > <Button className="links" variant="outline-light" block>PROJECTS</Button></a>
-            <a href="#resume" >    <Button className="links" variant="outline-light" block>  RESUME  </Button></a>
+            <a
+              style={{ textDecoration: 'none' }}
+              className="button-aesthetic" href="#about-me">
+              <Button className="links" variant="outline-light" block>ABOUT ME</Button>
+            </a>
+            
+            <a
+              style={{ textDecoration: 'none' }}
+              className="button-aesthetic" href="#skills">
+              <Button className="links" variant="outline-light" block>SKILLS</Button>
+            </a>
+
+            <a
+              style={{ textDecoration: 'none' }}
+              className="button-aesthetic" href="#projects">
+              <Button className="links" variant="outline-light" block>PROJECTS</Button>
+            </a>
+
+            <a
+              style={{ textDecoration: 'none' }}
+              className="button-aesthetic" href="#resume">
+              <Button className="links" variant="outline-light" block>RESUME</Button>
+            </a>
+
           </div>
 
         </div>
