@@ -60,12 +60,12 @@ export default function Footer() {
         </div>
         <div className="footer-icons">
           <div className="footer-icon-div" > <a target="_blank" href="https://linkedin.com/KellyAppiah">  <img className="each-footer-icon" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png" /> </a> </div>
-          <div className="footer-icon-div" > <a target="_blank" href="https://twitter.com">  <img className="each-footer-icon" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-12-512.png" /> </a> </div>
+          <div className="footer-icon-div" > <a target="_blank" href="https://twitter.com/KellyKodes">  <img className="each-footer-icon" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-12-512.png" /> </a> </div>
           <div className="footer-icon-div" > <a target="_blank" href="https://github.com/KellyAppiah"> <img className="each-footer-icon" src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-256.png" /> </a> </div>
           <div className="footer-icon-div" > <a target="_blank" href="KellyKodes@gmail.com"> <img className="each-footer-icon" src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/mail-256.png" /> </a> </div>
 
         </div>
-<p>Kelly Appiah</p>
+<p>Kelly Appiah Designs</p>
 
       </div>
     </div>
