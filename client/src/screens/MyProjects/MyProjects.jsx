@@ -6,7 +6,7 @@ import './MyProjects.css'
 export default function MyProjects() {
   return (
     <>
-      <h4 className="projects-title" id="projects">PROJECTS</h4>
+      <h3 className="projects-title" id="projects">PROJECTS</h3>
 
 
       <div className="all-projects">

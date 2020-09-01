@@ -6,10 +6,8 @@ export default function Resume() {
   return (
     <>
       <div className="resume-container">
-
         <div className="resume">
-
-          <h4 className="resume-name" id="resume">RESUME</h4>
+          <h3 className="resume-name" id="resume">RESUME</h3>
 
           <br></br>
 
@@ -21,7 +19,7 @@ export default function Resume() {
               target="_blank"
               href="https://drive.google.com/file/d/18bDiTKa5LvUwyu_ILaXt6gonQKZZyH0h/view?usp=sharing"
               style={{textDecoration:'none'}}>
-              <Button className="resume-buttons" variant="outline-light" block>VIEW</Button>
+              <Button className="resume-buttons" variant="outline-dark" size="lg" block>VIEW</Button>
             </a>
 
           </div>

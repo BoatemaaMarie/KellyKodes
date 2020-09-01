@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react'
-import {Route, Switch} from 'react-router-dom'
+import './Main.css'
 import Home from '../../../screens/Home/Home'
 import AboutMe from '../../../screens/AboutMe/AboutMe'
 import Skills from '../../../screens/Skills/Skills'
 import MyProjects from '../../../screens/MyProjects/MyProjects'
 import Resume from '../../../screens/Resume/Resume'
-// import Footer from '../../shared/Footer/Footer'
+import Footer from '../../shared/Footer/Footer'
 
 
 
@@ -14,15 +14,14 @@ export default function Main() {
 
   return (
     <>
-      <Route>
-
-      <Home component="/aboutme" exact/> 
-      </Route>
+      <Home /> 
       <AboutMe />
       <Skills />
       <MyProjects />
+      <div className="resume-footer">
       <Resume /> 
-      {/* <Footer /> */}
+      <Footer />
+      </div>
     </>
   )
 }
