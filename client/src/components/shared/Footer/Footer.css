@@ -1,0 +1,14 @@
+.form-div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10%;
+  border: 1px solid gray;
+  padding:10%;
+background-color: black;
+color: white;
+}
+
+.form-button{
+  padding-top: 50px;
+}
