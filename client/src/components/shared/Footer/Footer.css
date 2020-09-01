@@ -12,3 +12,23 @@ color: white;
 .form-button{
   padding-top: 50px;
 }
+
+.each-footer-icon{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+} 
+
+.footer-icon-div{
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 20px;
+  background-color: whitesmoke;
+}

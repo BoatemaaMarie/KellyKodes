@@ -37,7 +37,7 @@ export default function MyProjects() {
                 target="_blank"
                 href="http://subbusters.surge.sh/"
                 style={{ textDecoration: 'none' }}>
-                <Button variant="outline-light" block>VISIT SITE</Button>
+                <Button variant="outline-light" block>LIVE</Button>
               </a>
 
               <a
@@ -71,7 +71,7 @@ export default function MyProjects() {
               <a
                 target="_blank"
                 href="http://serenityskins.surge.sh"
-                style={{ textDecoration: 'none' }}> <Button variant="outline-light" block>VISIT SITE</Button>
+                style={{ textDecoration: 'none' }}> <Button variant="outline-light" block>LIVE</Button>
               </a>
 
               <a
