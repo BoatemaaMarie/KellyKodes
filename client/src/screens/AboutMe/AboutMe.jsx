@@ -18,7 +18,7 @@ export default function AboutMe() {
       The power to express my creativity through my career and hobbies is one that I truly cherish. The road to this self-discovery was a long one for me but definitely one that I wouldn't change. I'm a firm believer that things tend to happen for a reason whether we can see it or not, and it is a culmination of all these thoughts and ideas that have brought me to be where I am today as a Software Engineer.
 <br></br>
             <br></br>
-      Whenever I'm not expressing myself through my code, I'm doing so through music as a self-taught Audio Engineer, or through photography shooting whatever inspires me.
+      Whenever I'm not expressing myself through my code, I spend my time exploring NYC by trying new dishes, socializing with new people and learning new languages.
 
       I'm all about creation, expression, and paying it forward.
 

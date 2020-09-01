@@ -15,7 +15,7 @@ export default function Home() {
           <h1 className="contact-name">KELLY APPIAH </h1>
           <p className="contact">Full-Stack Software Engineer</p>
           <p className="contact">Phone: 347-335-9069</p>
-          <p className="contact-city">City: New York</p>
+          <p className="contact-city">City: New York City</p>
         </div>
 
         <div className="contain">
@@ -26,7 +26,7 @@ export default function Home() {
               className="button-aesthetic" href="#about-me">
               <Button className="links" variant="outline-light" block>ABOUT ME</Button>
             </a>
-            
+
             <a
               style={{ textDecoration: 'none' }}
               className="button-aesthetic" href="#skills">

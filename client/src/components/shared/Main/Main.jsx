@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import './Main.css'
 import Home from '../../../screens/Home/Home'
 import AboutMe from '../../../screens/AboutMe/AboutMe'
