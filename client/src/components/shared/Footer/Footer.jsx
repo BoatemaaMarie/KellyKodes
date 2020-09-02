@@ -65,7 +65,7 @@ export default function Footer() {
           <div className="footer-icon-div" > <a target="_blank" href="KellyKodes@gmail.com"> <img className="each-footer-icon" src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/mail-256.png" /> </a> </div>
 
         </div>
-<p>Kelly Appiah Designs</p>
+<p className="kelly-designs">Kelly Appiah Designs</p>
 
       </div>
     </div>

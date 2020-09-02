@@ -17,6 +17,7 @@ color: white;
   width: 150px;
   height: 150px;
   margin: 10px;
+  transition: transform .2s;
 }
 
 .footer-icons{
@@ -31,4 +32,18 @@ color: white;
   border-radius: 50%;
   margin: 20px;
   background-color: whitesmoke;
+}
+
+.each-footer-icon:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform:scale(1.5);
+}
+
+.kelly-designs{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bolder;
+  color: white;
+
 }

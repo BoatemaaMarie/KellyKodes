@@ -5,9 +5,9 @@ import './Resume.css'
 export default function Resume() {
   return (
     <>
-      <div className="resume-container">
-        <div className="resume">
-          <h3 className="resume-name" id="resume">RESUME</h3>
+      <div className="resume-container" id="resume">
+        <div className="resume" >
+          <h3 className="resume-name">RESUME</h3>
 
           <br></br>
 
